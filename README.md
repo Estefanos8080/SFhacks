@@ -2,9 +2,10 @@
 
 A virtual assistant that is made by using firebase ML Kit and Smart Reply. 
 
-![Test Image 1](first.png)
-![Test Image 2](second.png)
-![Test Image 3](third.png)
+MVI
+
+![Test Image 1](mvl.png)
+
 
 Source
 https://developer.android.com/guide/navigation/navigation-getting-started
