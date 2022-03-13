@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".User_Entery_To_suggestion">
+
+
+    <TextView
+        android:layout_marginBottom="140dp"
+        android:layout_width="400dp"
+        android:layout_height="20dp"
+        android:textAlignment="center"
+        android:text="Hi! it me Gchat your virtual assistant how can i help"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <EditText
+        android:id="@+id/user_input"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Type Here"/>
+    <Button
+        android:id="@+id/CheckBox"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="send"
+        android:selectAllOnFocus="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/cardview_shadow_start_color"
+        />
+
+    <Button
+        android:id="@+id/CheckBox2"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Clear"
+        android:selectAllOnFocus="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/cardview_shadow_start_color"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Check this out "
+        android:textColor="@color/cardview_dark_background"/>
+    <Button
+        android:id="@+id/CheckBox5"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@color/common_google_signin_btn_tint"
+        android:textAlignment="center"
+        android:hint="@string/fui_progress_dialog_loading"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:id="@+id/CheckBox4"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@color/common_google_signin_btn_tint"
+        android:textAlignment="center"
+        android:hint="@string/fui_progress_dialog_loading"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+        <Button
+            android:id="@+id/CheckBox3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="CLick here to see the nearest mental care"
+            android:selectAllOnFocus="true"
+            android:layout_marginTop="50dp"
+            android:background="@color/cardview_shadow_start_color"
+            />
+
+
+</LinearLayout>

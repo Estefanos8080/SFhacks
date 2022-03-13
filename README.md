@@ -1,1 +1,1 @@
-# SFhacks
+# SFHacksHackathon

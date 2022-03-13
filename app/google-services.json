@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "17518755628",
+    "project_id": "sfhacks-c8a02",
+    "storage_bucket": "sfhacks-c8a02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17518755628:android:59cdc5fd47c1d77b49f689",
+        "android_client_info": {
+          "package_name": "com.example.sfhacks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "17518755628-8emik3rjrkb4v2gqsh3n3r3abp9n8bub.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFQdxagJsJgh4IvYmX17i5ZsHNFOro9rY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "17518755628-8emik3rjrkb4v2gqsh3n3r3abp9n8bub.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

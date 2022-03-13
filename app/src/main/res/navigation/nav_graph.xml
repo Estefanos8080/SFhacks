@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainActivity">
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.sfhacks.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.sfhacks.ui.login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/signupFragment"
+        android:name="com.example.sfhacks.ui.signup"
+        android:label="fragment_signup"
+        tools:layout="@layout/fragment_signup" >
+        <action
+            android:id="@+id/action_signupFragment_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/user_Entery_To_suggestion"
+        android:name="com.example.sfhacks.User_Entery_To_suggestion"
+        android:label="fragment_user__entery__to_suggestion"
+        tools:layout="@layout/fragment_user__entery__to_suggestion" >
+        <action
+            android:id="@+id/action_user_Entery_To_suggestion_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_user_Entery_To_suggestion_to_signupFragment"
+            app:destination="@id/signupFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nearest_mental_care_hospital"
+        android:name="com.example.sfhacks.nearest_mental_care_hospital"
+        android:label="fragment_emergancy"
+        tools:layout="@layout/fragment_emergancy" >
+        <action
+            android:id="@+id/action_nearest_mental_care_hospital_to_user_Entery_To_suggestion"
+            app:destination="@id/user_Entery_To_suggestion" />
+    </fragment>
+</navigation>
