@@ -1,6 +1,6 @@
 # SF Hacks 2 days Hackathon
 
-A virtual assistant that is made by using firebase ML Kit and Smart Reply. 
+A virtual assistant that is made by using firebase, ML Kit and Smart Reply. 
 
 MVI
 
